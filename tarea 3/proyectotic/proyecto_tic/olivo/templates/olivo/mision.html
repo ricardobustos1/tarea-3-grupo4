@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Oliva, Poimienta y limón</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="{%  static 'favicon.ico' %}">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+
+    <!-- Custom fonts for this template -->
+    <link href="{% static 'vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <link href="{% static 'css/freelancer.min.css' %}" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    {% include 'olivo/menu.html' %}
+
+    <!-- Header -->
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container">
+            <img class="img-fluid w-25 mb-5 d-block mx-auto" src="{% static 'img/mario.png' %}" alt="">
+            <h1 class="text-uppercase mb-0">Misión</h1>
+            <hr class="star-light">
+        </div>
+    </header>
+
+    <section id="bienvenida">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-secondary mb-0">Bienvenido a los mejores sandwiches</h2>
+            <hr class="star-dark mb-5">
+
+            <div class="row">
+                <p>Acá ira la mision de la empresa y sus objetivos finales mas algunas fotos de ellos trabajando para contextualiza.</p>
+            </div>
+            <div class="row">
+                <p> Junto a ustedes les tenemos los sándwiches más deliciosos de Santiago, cocinados con ingredientes gourmet aún así siendo al alcance del bolsillo de cualquiera y por supuesto con mucho cariño :)</p>
+            </div>
+            
+        </div>
+    </section>
+
+
+</body>
+</html>

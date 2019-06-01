@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Oliva, Poimienta y limón</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="{%  static 'favicon.ico' %}">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+
+    <!-- Custom fonts for this template -->
+    <link href="{% static 'vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <link href="{% static 'css/freelancer.min.css' %}" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    {% include 'olivo/menu.html' %}
+
+    <!-- Header -->
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container">
+            <img class="img-fluid w-25 mb-5 d-block mx-auto" src="{% static 'img/mario.png' %}" alt="">
+            <h1 class="text-uppercase mb-0">Grupo 4</h1>
+            <hr class="star-light">
+			<h2 class="font-weight-light mb-0">Esta vista será la de inicio. Tendrá unas imágenes de fondo y una breve descripción del resto de las vistas</h2>
+
+        </div>
+    </header>
+
+    <section id="bienvenida">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-secondary mb-0">Integrantes</h2>
+            <hr class="star-dark mb-5">
+            <div class="row">
+                <p>Javiera Bujanda V.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Srdjen Busolich C.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				Ricardo Bustos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ignacio Cantillano V. </p>
+            </div>
+            
+        </div>
+    </section>
+
+}
+
+</body>
+</html>
